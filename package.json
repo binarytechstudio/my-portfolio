@@ -7,7 +7,8 @@
   },
 "scripts": {
   "dev": "tinacms dev -c \"astro dev\"",
-  "build": "TINA_PUBLIC_IS_LOCAL=true tinacms build && astro build",
+  "build": "TINA_PUBLIC_CLIENT_ID=57ca8630-b466-4f01-85a4-4f7ec5132600 npx tinacms build --local && astro build"
+,
   "preview": "astro preview",
   "astro": "astro"
 },
