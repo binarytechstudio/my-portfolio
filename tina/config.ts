@@ -15,8 +15,6 @@ export default defineConfig({
   // Get this from tina.io
   token: process.env.TINA_TOKEN,
 
-  local: true,
-
   build: {
     outputFolder: "admin",
     publicFolder: "public",
