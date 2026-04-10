@@ -3,11 +3,11 @@
   "type": "module",
   "version": "0.0.1",
   "engines": {
-    "node": ">=22.12.0"
+    "node": "20.x"
   },
 "scripts": {
   "dev": "tinacms dev -c \"astro dev\"",
-  "build": "tinacms build && astro build",
+  "build": "tinacms build --local && astro build",
   "preview": "astro preview",
   "astro": "astro"
 },
